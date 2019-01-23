@@ -1,5 +1,5 @@
 public class Monster {
-
+	//fields
 	private int health;
 	private int damage;
 	private String monsterType;
@@ -58,6 +58,7 @@ public class Monster {
 		return entranceText;
 	}
 	
+	//damage taken will reduce monster's health
 	public void onHit(int damage) {
 		health -= damage;
 	}
